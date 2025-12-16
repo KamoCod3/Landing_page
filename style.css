@@ -53,6 +53,7 @@ div.hero-section {
     align-items: center;
     margin: 50px 0px;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 div.hero-section img{
@@ -133,16 +134,33 @@ div.footer {
     display: flex;
     color: #F9FAF8;
     justify-content: center;
-    padding: 12px;
+    padding: 20px;
+}
+
+div.last-page {
+    padding: 100px;
 }
 
 div.signUp-banner {
     display: flex;
-    justify-content: center;
-    padding: 10px;
-    font-size: 20px;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: #F9FAF8;
 }
 
-.signUp-banner div {
+
+.signUp-banner button {
     background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    border-radius: 7px;
+    color: #F9FAF8;
+    padding: 3px 9px;
+}
+
+div.button-container {
+    display: flex;
+    justify-content: center;
+    width: 200px;
 }
