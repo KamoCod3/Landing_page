@@ -29,14 +29,18 @@ div.header h2{
 }
 
 div.header {
-    display: flex;
     justify-content: space-between;
+}
+
+div.header, div.footer {
+    display: flex;
 }
 
 div.header ul {
     display: flex;
     list-style: none;
     gap: 12px;
+    align-items: center;
 }
 
 .header ul a {
@@ -48,6 +52,7 @@ div.hero-section {
     margin-top: auto;
     align-items: center;
     margin: 50px 0px;
+    gap: 20px;
 }
 
 div.hero-section img{
@@ -62,4 +67,82 @@ div.hero-section button {
     border: none;
     border-radius: 5px;
     font-size: 18px;
+}
+
+/* page 2 styling*/
+
+.page2{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.products-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.card {
+    padding: 14px;
+    box-shadow: 2px 2px 4px rgb(31, 41, 55, 0.5);
+    border-radius: 9px;
+    flex: 1 200px;
+    text-align: center;
+    margin: 9px;
+}
+
+div.card img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+}
+
+
+div.card h4{
+    margin-bottom: 12px;
+}
+
+/* page 3 styling*/
+
+div.page3 {
+    background-color: #E5E7EB;
+}
+
+div.quote-section {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.quote-section p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+div.quote-section #name {
+    align-self: flex-end;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+div.footer {
+    background-color: #1F2937;
+    display: flex;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 12px;
+}
+
+div.signUp-banner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.signUp-banner div {
+    background-color: #3882F6;
 }
